@@ -1,4 +1,9 @@
-size(400, 400);
-stroke(192, 192, 192);
-background(192, 64, 0);
-line(150, 25, mouseX, mouseY);
+void setup() {
+  size(400, 400);
+  stroke(192, 192, 192);
+  background(192, 64, 0);
+}
+
+void draw() {
+  line(150, 25, mouseX, mouseY);
+}
